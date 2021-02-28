@@ -14,18 +14,46 @@
  *= require_self
  */
 
+ html {
+   background: rgb(31, 31, 31);
+ }
+
  .block {
    display: block;
  }
 
  .button {
-  background-color: rgb(7, 0, 109);
+  display: block;
+  background-color: rgb(68, 61, 170);
   color: white;
-  padding: .5rem 1rem;
+  margin: 1rem 0;
+  padding: .8rem 1rem;
+  text-align: center;
   text-decoration: none;
+  width: 10rem;
 }
 
 .container {
   margin: 1rem;
   padding: 1rem;
+}
+
+.flash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  color: white;
+}
+
+.alert {
+  background: rgb(151, 42, 42);
+}
+
+.notice {
+ background: rgb(72, 131, 49);
+}
+
+.form {
+  color: white;
 }

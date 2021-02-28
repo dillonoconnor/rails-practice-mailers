@@ -1,2 +1,4 @@
 <%= link_to "Sign Up", new_user_path, class:"button" %>
-<%= link_to "Sign In", "#", class:"button" %>
+<%= link_to "Sign In", login_path, class:"button" %>
+<%= link_to "Sign Out", session_path, class: "button", method: :delete %>
+<%= link_to "Send Me A File", file_path, class: "button", method: :post %>
